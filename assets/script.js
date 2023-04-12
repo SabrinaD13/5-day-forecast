@@ -1,4 +1,3 @@
-// API key
 var API_KEY = '8cdebd314fd388cb898f7de3e44ddb94';
 
 // Data Elements 
