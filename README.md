@@ -25,4 +25,5 @@ Github Link:https://github.com/SabrinaD13/5-day-forecast/tree/main
 
 Screenshot of deployed website:
 
-![Screenshot (119)](https://user-images.githubusercontent.com/125221411/231524185-66280975-a448-4672-a7f0-69f81a62e178.png)
+
+![Screenshot (125)](https://user-images.githubusercontent.com/125221411/231524652-16702001-2872-4e94-b803-c4da8f8ac86f.png)
