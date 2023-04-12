@@ -17,9 +17,12 @@ THEN I am presented with a 5-day forecast that displays the date, an icon repres
 WHEN I click on a city in the search history
 THEN I am again presented with current and future conditions for that city
 
+Added weather Api, created the functions for it to work properly, added css to have the layout I wanted. 
+
 Links:
 Deployed Site: http://127.0.0.1:5500/index.html
 Github Link:https://github.com/SabrinaD13/5-day-forecast/tree/main
 
 Screenshot of deployed website:
 
+![Screenshot (119)](https://user-images.githubusercontent.com/125221411/231524185-66280975-a448-4672-a7f0-69f81a62e178.png)
