@@ -1,1 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/main.css">
+    <title>Weather forecast</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="headerEl">Weekly Weather</h1>
+    </header>
+    <section>
+        <areaLeft>
+ <!------- Generate Button -------------->
+            <main>
+                <h1>5 Day Weather</h1><input type="text" id="nameInput">
+                <button id="generateBtn">Generate</button>
+                <hr>
+            </main>
+<!---------------- History --------------->
+            <history id="historyID">
+                <ul></ul>
+            </history>
+        </areaLeft>
+        <areaRight>
+            <focused>
+<!------------Search Result----------------->
+                <name id="searchName"></name><span id="dateMainQuery"></span>
+                <temp>Temp: <span id="latestQTemp"></span></temp>
+                <wind>Wind: <span id="latestQWindSpeed"></span></wind>
+                <humidity>Humidity: <span id="latestQHumidity"></span></humidity>
+            </focused>
+            <span id="fiveDaysTitle">5-Day Forecast:</span>
+            <fivedays>
+                <div class="box">
+                <day0>
+                    <date0 id="date7"></date0>
+                    <img class='icon' id="icon7"></img>
+                    <temp0>Temp: <span id="temp7"></span></temp0>
+                    <wind0>Wind: <span id="wind7"></span></wind0>
+                    <humidity0>Humidity: <span id="humidity7"></span></humidity0>
+                </day0>
+            </div>
+            <div class="box">
+                <day1>
+                    <date1><span id="date15"></span></date1>
+                    <img class='icon' id="icon15"></img>
+                    <temp1>Temp: <span id="temp15"></span></temp1>
+                    <wind1>Wind: <span id="wind15"></span></wind1>
+                    <humidity1>Humidity: <span id="humidity15"></span></humidity1>
+                </day1>
+            </div>
+            <div class="box">
+                <day2>
+                    <date2><span id="date23"></span></date2>
+                    <img class='icon' id="icon23"></img>
+                    <temp2>Temp: <span id="temp23"></span></temp2>
+                    <wind2>Wind: <span id="wind23"></span></wind2>
+                    <humidity2>Humidity: <span id="humidity23"></span></humidity2>
+                </day2>
+            </div>
+            <div class="box">
+                <day3>
+                    <date3><span id="date31"></span></date3>
+                    <img class='icon' id="icon31"></img>
+                    <temp3>Temp: <span id="temp31"></span></temp3>
+                    <wind3>Wind: <span id="wind31"></span></wind3>
+                    <humidity3>Humidity: <span id="humidity31"></span></humidity3>
+                </day3>
+                </div>
+                <div class="box">
+                <day4>
+                    <date4><span id="date39"></span></date4>
+                    <img class='icon' id="icon39"></img>
+                    <temp4>Temp: <span id="temp39"></span></temp4>
+                    <wind4>Wind: <span id="wind39"></span></wind4>
+                    <humidity4>Humidity: <span id="humidity39"></span></humidity4>
+                </day4>
+                </div>
+            </fivedays>
+        </areaRight>
+    </section>
+</body>
+<script src=/assets/script.js"></script>
+
+</html>

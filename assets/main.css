@@ -1,0 +1,138 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    margin-left: 10px;
+}
+
+header {
+    text-align: right;
+    background-color: rgb(92, 196, 132);
+    color: rgb(39, 77, 182);
+}
+
+generateBtn {
+ text-align: center;
+ color: blueviolet;
+}
+
+generateBtn:hover {
+    cursor: pointer;
+    color:blueviolet
+}
+
+h1 {
+    margin: 0px;
+    color: rgb(39, 77, 182);
+}
+
+body {
+    margin: 0px;
+}
+
+#headerEl {
+    margin-right: 20px;
+}
+
+history ul {
+    padding: 10px;
+}
+
+history ul li{
+    list-style-type: none;
+}
+
+focused {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    border-style: groove;
+    flex-wrap: wrap;
+}
+
+/* page layout */
+areaLeft {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+areaRight {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+section{
+    display: flex;
+}
+
+/* 5 day forecast cards */
+.box{
+    width: 700px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+day0 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: rgb(92, 196, 132)
+}
+
+day1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: rgb(92, 196, 132)
+}
+
+day2 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: rgb(92, 196, 132)
+}
+
+day3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: rgb(92, 196, 132)
+}
+
+day4 {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+    color: rgb(92, 196, 132)
+}
+
+fiveDays {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#fiveDaysTitle {
+    margin-top: 10px;
+    font-size: 2rem;
+    color: rgb(39, 77, 182);
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+#historyID ul {
+    display: flex;
+    flex-direction: column;
+    width: 78%;
+}
